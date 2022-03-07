@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.container{
+    margin: auto 34px;
+    padding: 34px;
+    /* background-color: rgba(107, 98, 235, 0.438); */
+}
+
+.container h1, p{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 50px;
+    color: rgba(32, 29, 82, 0.931);
+}
+
+p{
+    font-size: 25px;
+    color: #084ecd;
+}
+
+.submitmsg{
+    color: rgb(2, 92, 2);
+    font-size: 30px;
+}
+
+input, textarea{
+    display: block;
+    border-radius: 25px;
+    border: 2px solid black;
+    font-size: 20px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 11px;
+    background-color: rgb(252, 251, 255);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 5px 35px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(32, 29, 82, 0.931);
+    border-color: white;
+    border-radius: 12px;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
